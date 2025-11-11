@@ -451,40 +451,62 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-8">
             {/* Projeto 1 */}
+            {/* Projeto Blog API - REAL */}
             <div className={`rounded-xl p-6 border transition-all duration-300 group ${
               theme === 'dark' 
-                ? 'bg-gray-700/50 border-gray-600 hover:border-green-400' 
-                : 'bg-white border-gray-200 hover:border-green-500'
+                ? 'bg-gray-700/50 border-gray-600 hover:border-purple-400' 
+                : 'bg-white border-gray-200 hover:border-purple-500'
             }`}>
               <div className={`mb-2 font-semibold transition-colors duration-300 ${
-                theme === 'dark' ? 'text-green-400' : 'text-green-600'
+                theme === 'dark' ? 'text-purple-400' : 'text-purple-600'
               }`}>
-                🚧 EM DESENVOLVIMENTO
+                ✅ PROJETO CONCLUÍDO
               </div>
               <h3 className={`text-2xl font-bold mb-4 transition-colors duration-300 ${
                 theme === 'dark' ? 'text-white' : 'text-gray-900'
               }`}>
-                API de Análise de Dados
+                🚀 Blog API - Backend
               </h3>
               <p className={`mb-6 leading-relaxed transition-colors duration-300 ${
                 theme === 'dark' ? 'text-gray-400' : 'text-gray-600'
               }`}>
-                API REST para processamento e análise de datasets com autenticação JWT, documentação Swagger e testes automatizados.
+                API RESTful completa para sistema de blog com autenticação JWT, CRUD de posts, MongoDB e deploy em produção.
               </p>
               <div className="flex flex-wrap gap-2 mb-6">
-                {['Python', 'FastAPI', 'PostgreSQL', 'JWT', 'Docker'].map((tech) => (
+                {['Node.js', 'Express', 'MongoDB', 'JWT', 'REST API'].map((tech) => (
                   <span key={tech} className={`px-3 py-1 rounded text-sm transition-colors duration-300 ${
-                    theme === 'dark' ? 'bg-gray-600 text-green-400' : 'bg-green-100 text-green-700'
+                    theme === 'dark' ? 'bg-gray-600 text-purple-400' : 'bg-purple-100 text-purple-700'
                   }`}>
                     {tech}
                   </span>
                 ))}
               </div>
-              <button className={`w-full py-3 rounded text-sm cursor-not-allowed transition-colors duration-300 ${
-                theme === 'dark' ? 'bg-gray-600 text-gray-400' : 'bg-gray-200 text-gray-500'
-              }`} disabled>
-                Em Desenvolvimento
-              </button>
+              <div className="flex gap-3">
+                <a 
+                  href="https://github.com/Gwesley7/blog-api-backend" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`flex-1 py-3 px-4 rounded text-sm text-center transition-all duration-300 ${
+                    theme === 'dark' 
+                      ? 'bg-purple-600 hover:bg-purple-700 text-white' 
+                      : 'bg-purple-500 hover:bg-purple-600 text-white'
+                  }`}
+                >
+                  📁 Código Fonte
+                </a>
+                <a 
+                  href="https://ideal-truth.up.railway.app/api/health" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className={`flex-1 py-3 px-4 rounded text-sm text-center transition-all duration-300 ${
+                    theme === 'dark' 
+                      ? 'bg-gray-600 hover:bg-gray-500 text-white' 
+                      : 'bg-gray-200 hover:bg-gray-300 text-gray-700'
+                  }`}
+                >
+                  🌐 API Online
+                </a>
+              </div>
             </div>
 
             {/* Projeto 2 */}
