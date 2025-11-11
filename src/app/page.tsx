@@ -343,7 +343,7 @@ export default function Home() {
                   💼 Objetivo
                 </h3>
                 <p className={theme === 'dark' ? 'text-gray-300' : 'text-gray-700'}>
-                  Buscando minha primeira oportunidade como <strong className={theme === 'dark' ? 'text-blue-400' : 'text-blue-600'}>Desenvolvedor Backend</strong> para aplicar e expandir meus conhecimentos.
+                  Buscando uma oportunidade em <strong className={theme === 'dark' ? 'text-blue-400' : 'text-blue-600'}>Tecnologia</strong> para aplicar e expandir meus conhecimentos.
                 </p>
               </div>
             </div>
