@@ -45,7 +45,7 @@ export default function Home() {
   const certifications = [
     { name: "Engenharia de Software", institution: "UNESA - Universidade Estácio de Sá", year: "2022 - 2026" },
     { name: "Competência Transversal – Tecnologia da Informação e Comunicação", institution: "ESCOLA SENAI ROBERTO MANGE", year: "2019" },
-    { name: "Algoritimo e Lógica de Programção", institution: "ALURA - Escola de tecnologia", year: "2021" },
+    { name: "Algoritimo e Lógica de Programação", institution: "ALURA - Escola de tecnologia", year: "2021" },
     { name: "CS50's Introduction to Artificial Intelligence with Python", institution: "HarvardX", year: "2025", status: "Em progresso" },
     // Adicionar mais certificações aqui
   ];
